@@ -17,7 +17,7 @@ This project is designed to help hostel administrators manage students, rooms, f
 
 ---
 
-## 🚀 Features
+##  Features
 
 -  Student registration & management  
 -  Room allocation & availability tracking  
