@@ -31,9 +31,7 @@ This project is designed to help hostel administrators manage students, rooms, f
 ---
 
 ##  Screenshots  
-
-> Add your project screenshots here (replace `screenshot1.png` with your actual images).  
-
+Screenshots are here
 ### Dashboard  
 ![Dashboard](screenshots/dashboard.png)  
 
