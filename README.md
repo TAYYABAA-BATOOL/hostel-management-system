@@ -55,7 +55,7 @@ This project is designed to help hostel administrators manage students, rooms, f
 
 ---
 
-## ⚙ Installation  
+##  Installation  
 
 1. Clone the repository:
    ```bash
