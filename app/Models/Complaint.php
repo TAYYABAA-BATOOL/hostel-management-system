@@ -10,7 +10,7 @@ class Complaint extends Model
 
  protected $fillable = [
     'student_id',
-    'category', // ✅ add this
+    'category', 
     'title',
     'description',
     'status',
