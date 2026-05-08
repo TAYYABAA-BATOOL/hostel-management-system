@@ -1,61 +1,79 @@
-#  Hostel Management System
+#  Hostel Management System (HMS)
 
-A **web-based Hostel Management System** built with **Laravel**.  
-This project is designed to help hostel administrators manage students, rooms, fees, complaints, and notices efficiently with role-based access for Admin, Staff, and Students.  
-
----
-
-##  Table of Contents
-- [Features](#-features)
-- [Screenshots](#-screenshots)
-- [Tech Stack](#-tech-stack)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Folder Structure](#-folder-structure)
-- [Contributing](#-contributing)
-- [License](#-license)
+A robust, web-based management solution built with Laravel to streamline hostel administration, student records, and facility management.
 
 ---
 
-##  Features
-
--  Student registration & management  
--  Room allocation & availability tracking  
--  Fee collection & payment history  
--  Notices & announcements module  
--  Complaints management system  
--  Admin dashboard for complete control  
--  Staff dashboard for limited access  
--  Role-based authentication (Admin, Staff, Student)  
+##  Tech Stack
+* **Backend:** PHP (Laravel 10+)
+* **Frontend:** Blade Templates, Bootstrap/TailwindCSS
+* **Database:** MySQL / MariaDB
+* **Auth:** Laravel Breeze / Jetstream
+* **Server:** Apache (XAMPP/WAMP)
 
 ---
 
-##  Screenshots  
-Screenshots are here
-### Dashboard  
-![Dashboard](screenshots/dashboard.png)  
+##  Key Features
 
-### Room Management  
-![Rooms](screenshots/rooms.png)  
+###  User Management
+* **Role-Based Access:** Dedicated dashboards for Admin, Staff, and Students.
+* **Student Lifecycle:** Registration, profile management, and room allocation.
 
-### Student Profile  
-![Student](screenshots/student.png)  
+###  Room & Facility Control
+* **Inventory Tracking:** Real-time room availability and assignment.
+* **Maintenance:** Integrated complaints management system for students.
 
----
-
-##  Tech Stack  
-
-- **Backend**: [Laravel 10+](https://laravel.com/) (PHP Framework)  
-- **Frontend**: Blade Templates, Bootstrap/TailwindCSS  
-- **Database**: MySQL / MariaDB  
-- **Authentication**: Laravel Breeze / Jetstream (if used)  
-- **Server**: Apache (XAMPP/LAMP/WAMP)  
+###  Finance & Communication
+* **Fee Management:** Tracking collection and payment history.
+* **Notice Board:** Automated announcements and notices module.
 
 ---
 
-##  Installation  
+##  Installation Guide
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/TAYYABAA-BATOOL/hostel-management-system.git
-   cd hostel-management-system
+Follow these steps to set up the project locally:
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/TAYYABAA-BATOOL/hostel-management-system.git](https://github.com/TAYYABAA-BATOOL/hostel-management-system.git)
+cd hostel-management-system
+
+```
+
+### 2. Dependency Setup
+
+```bash
+composer install
+npm install && npm run dev
+
+```
+
+### 3. Configuration
+
+* Copy `.env.example` to `.env`.
+* Configure your database settings in `.env`.
+* Generate app key:
+
+```bash
+php artisan key:generate
+
+```
+
+### 4. Database Migration
+
+```bash
+php artisan migrate --seed
+
+```
+
+### 5. Start Server
+
+```bash
+php artisan serve
+
+```
+
+---
+
+**Developed by Tayyaba** | *Full-Stack Web Developer*
+
